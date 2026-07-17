@@ -1,7 +1,7 @@
 {
   "name": "sigma-face",
   "version": "0.1.0",
-  "description": "Session wrapup and handoff workflows for Codex.",
+  "description": "Session wrapup, handoff, and spec-first workflows for Codex.",
   "author": {
     "name": "serratusCZ",
     "url": "https://github.com/serratusCZ"
@@ -12,8 +12,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Sigma Face",
-    "shortDescription": "Session wrapup and handoff workflows",
-    "longDescription": "Generates concise wrapup and handoff notes for Codex sessions and keeps the latest pointer in work/session-end/LATEST.md.",
+    "shortDescription": "Session wrapup, handoff, and spec-first workflows",
+    "longDescription": "Generates concise wrapup, handoff, and spec-first notes for Codex sessions and keeps the latest pointer in work/session-end/LATEST.md.",
     "developerName": "serratusCZ",
     "category": "Productivity",
     "capabilities": [
@@ -23,9 +23,9 @@
     "defaultPrompt": [
       "Use Sigma Face to close a session cleanly.",
       "Generate a wrapup note.",
-      "Generate a handoff note."
+      "Generate a handoff note.",
+      "Draft a spec before a demo or prototype."
     ],
     "brandColor": "#111111"
   }
 }
-

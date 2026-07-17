@@ -1,11 +1,12 @@
 # Sigma Face
 
-Codex plugin for session wrapups and handoffs.
+Codex plugin for session wrapups, handoffs, and spec-first workflows.
 
 ## What it does
 
 - `session-wrapup`: short end-of-session summary for mostly complete topics
 - `session-handoff`: detailed continuation note for work that must be resumed
+- `specme`: create a spec before demo or prototype work starts
 
 ## Generated output
 
@@ -20,4 +21,3 @@ From this directory:
 node .codex/session-end.mjs wrapup
 node .codex/session-end.mjs handoff
 ```
-
