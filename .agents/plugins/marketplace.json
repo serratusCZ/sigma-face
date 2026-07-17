@@ -1,0 +1,21 @@
+{
+  "name": "sigma-face-marketplace",
+  "interface": {
+    "displayName": "Sigma Face Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "sigma-face",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sigma-face"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+

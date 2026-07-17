@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "outputDir": "work/session-end",
+  "latestFile": "work/session-end/LATEST.md",
+  "hooks": {
+    "session-wrapup": {
+      "mode": "wrapup",
+      "template": ".codex/templates/session-wrapup.md",
+      "outputPattern": "work/session-end/{{timestamp}}-wrapup.md"
+    },
+    "session-handoff": {
+      "mode": "handoff",
+      "template": ".codex/templates/session-handoff.md",
+      "outputPattern": "work/session-end/{{timestamp}}-handoff.md"
+    }
+  }
+}
+
